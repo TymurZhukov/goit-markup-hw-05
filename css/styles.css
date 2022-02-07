@@ -261,6 +261,7 @@ img {
   height: 44px;
   border-radius: 50%;
   color: var(--icon-color);
+  transition-property: color, background-color;
   transition-duration: var(--hover-time);
   transition-timing-function: var(--hover-time);
 }
@@ -375,7 +376,7 @@ img {
 .what-we-do-content {
   font-weight: 700;
   font-size: 14px;
-  /* line-height: 1.14px; */
+  line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -455,7 +456,7 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
   color: var(--icon-color);
-  transition-property: color;
+  transition-property: color, border-color;
   transition-duration: var(--hover-time);
   transition-timing-function: var(--cube);
 }
@@ -578,6 +579,7 @@ img {
   cursor: pointer;
   border: none;
   padding: 6px 22px;
+  transition-property: color, box-shadow, background-color;
   transition-duration: var(--hover-time);
   transition-timing-function: var(--cube);
 }
@@ -700,7 +702,7 @@ img {
 .join-us-title {
   font-weight: 700;
   font-size: 14px;
-  /* line-height: 1.14px; */
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -719,6 +721,7 @@ img {
   width: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
   transition-duration: var(--hover-time);
   transition-timing-function: var(--cube);
 }
@@ -743,6 +746,7 @@ img {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.8);
   transition-duration: 500ms;
+  transition-property: opacity, visibility;
   /* transition: opacity 5000ms, visibility 5000ms; */
 }
 
